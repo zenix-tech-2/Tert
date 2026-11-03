@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" font-family="Outfit, Arial, sans-serif">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#e5e7eb" stroke-width="1"/></pattern>
+    <linearGradient id="ph" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f2937"/><stop offset="1" stop-color="#030712"/></linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="#fff"/><rect width="1200" height="720" fill="url(#grid)"/>
+  <!-- banknotes -->
+  <g transform="rotate(-20 120 150)"><rect x="40" y="120" width="160" height="70" rx="8" fill="#f8c8d0"/><rect x="48" y="128" width="144" height="54" rx="6" fill="none" stroke="#c0394b" stroke-width="2"/><text x="120" y="162" text-anchor="middle" font-size="22" font-weight="800" fill="#c0394b">1000</text></g>
+  <g transform="rotate(18 1050 560)"><rect x="970" y="520" width="160" height="70" rx="8" fill="#d6c7f0"/><rect x="978" y="528" width="144" height="54" rx="6" fill="none" stroke="#6b3fa0" stroke-width="2"/><text x="1050" y="562" text-anchor="middle" font-size="22" font-weight="800" fill="#6b3fa0">2000</text></g>
+  <!-- phone -->
+  <g transform="translate(180 40) rotate(8)">
+    <rect x="0" y="0" width="300" height="640" rx="44" fill="url(#ph)"/>
+    <rect x="14" y="14" width="272" height="612" rx="34" fill="#fff"/>
+    <rect x="110" y="26" width="80" height="12" rx="6" fill="#111"/>
+    <text x="30" y="70" font-size="14" font-weight="700" fill="#111">Mon statut</text><text x="230" y="70" font-size="13" fill="#2563eb">Modifier</text>
+    <g font-size="12" fill="#111">
+      <g transform="translate(30 95)"><circle cx="14" cy="14" r="14" fill="#e5e7eb"/><text x="40" y="12" font-weight="700">15400 vues</text><text x="40" y="26" fill="#6b7280" font-size="10">il y a 23h</text></g>
+      <g transform="translate(30 150)"><circle cx="14" cy="14" r="14" fill="#e5e7eb"/><text x="40" y="12" font-weight="700">13200 vues</text><text x="40" y="26" fill="#6b7280" font-size="10">il y a 21h</text></g>
+      <g transform="translate(30 205)"><circle cx="14" cy="14" r="14" fill="#e5e7eb"/><text x="40" y="12" font-weight="700">13075 vues</text><text x="40" y="26" fill="#6b7280" font-size="10">il y a 20h</text></g>
+      <g transform="translate(30 260)"><circle cx="14" cy="14" r="14" fill="#e5e7eb"/><text x="40" y="12" font-weight="700">12948 vues</text><text x="40" y="26" fill="#6b7280" font-size="10">il y a 19h</text></g>
+      <g transform="translate(30 315)"><circle cx="14" cy="14" r="14" fill="#e5e7eb"/><text x="40" y="12" font-weight="700">12836 vues</text><text x="40" y="26" fill="#6b7280" font-size="10">il y a 18h</text></g>
+      <g transform="translate(30 370)"><circle cx="14" cy="14" r="14" fill="#e5e7eb"/><text x="40" y="12" font-weight="700">12721 vues</text><text x="40" y="26" fill="#6b7280" font-size="10">il y a 16h</text></g>
+      <g transform="translate(30 425)"><circle cx="14" cy="14" r="14" fill="#e5e7eb"/><text x="40" y="12" font-weight="700">12611 vues</text><text x="40" y="26" fill="#6b7280" font-size="10">il y a 15h</text></g>
+      <g transform="translate(30 480)"><circle cx="14" cy="14" r="14" fill="#e5e7eb"/><text x="40" y="12" font-weight="700">12503 vues</text><text x="40" y="26" fill="#6b7280" font-size="10">il y a 13h</text></g>
+    </g>
+    <circle cx="44" cy="580" r="16" fill="#22c55e"/><text x="44" y="586" text-anchor="middle" font-size="20" fill="#fff" font-weight="800">+</text>
+  </g>
+  <!-- headline -->
+  <text x="560" y="110" font-size="66" font-weight="800" fill="#1e1bb3">Le savais-tu?</text>
+  <text x="560" y="160" font-size="28" fill="#111">Avec la <tspan font-weight="800" fill="#1e1bb3">DBI monétise</tspan> tes vues en</text>
+  <text x="560" y="196" font-size="28" fill="#111">statut whatsapp</text>
+  <rect x="790" y="172" width="240" height="34" rx="4" fill="#f5c400"/><text x="910" y="196" text-anchor="middle" font-size="18" font-weight="700" fill="#111">jusqu'à 1,80 Fcfa/vue</text>
+  <text x="780" y="250" text-anchor="middle" font-size="22" fill="#111">Possibilité de gagner jusqu'à</text>
+  <rect x="610" y="265" width="340" height="52" rx="6" fill="#86e07a"/><text x="780" y="301" text-anchor="middle" font-size="30" font-weight="800" fill="#0a4a2c">80.000 Fcfa/ semaine</text>
+  <text x="780" y="345" text-anchor="middle" font-size="20" fill="#111">en fonction de ton audience</text>
+  <!-- conditions -->
+  <rect x="580" y="400" width="420" height="230" rx="10" fill="#1e1bb3"/>
+  <rect x="660" y="384" width="260" height="34" rx="6" fill="#f5c400"/><text x="790" y="408" text-anchor="middle" font-size="18" font-weight="800" fill="#1e1bb3">CONDITIONS A SUIVRE:</text>
+  <g font-size="17" fill="#fff">
+    <circle cx="612" cy="450" r="11" fill="#22c55e"/><text x="612" y="455" text-anchor="middle" font-size="13" font-weight="800">1</text>
+    <text x="634" y="446">Payer son abonnement à vie de</text><text x="634" y="468">2900 Fcfa pour être membre du réseau</text><text x="634" y="490">publicitaire DBI</text>
+    <circle cx="612" cy="528" r="11" fill="#22c55e"/><text x="612" y="533" text-anchor="middle" font-size="13" font-weight="800">2</text>
+    <text x="634" y="524">Publier les campagnes</text><text x="634" y="546">sponsorisées sur ton statut</text>
+    <circle cx="612" cy="590" r="11" fill="#22c55e"/><text x="612" y="595" text-anchor="middle" font-size="13" font-weight="800">3</text>
+    <text x="634" y="596">Gagner de l'argent à chaque vue</text>
+  </g>
+  <circle cx="1010" cy="650" r="22" fill="#22c55e"/><path d="M1000 660c6 4 14 4 20-2l-4-4c-4 3-8 3-12 1l-2-3c2-3 3-6 2-9l-4-2c-4 6-4 13 0 19z" fill="#fff"/>
+</svg>

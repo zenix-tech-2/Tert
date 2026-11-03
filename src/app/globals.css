@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --color-primary: #3b47f3;
+  --color-primary-dark: #2f3ad6;
+  --color-primary-soft: #eef0ff;
+  --color-brand-green: #0d8a4f;
+  --color-brand-green-dark: #0a6f40;
+  --color-brand-green-soft: #ecfdf3;
+  --color-ink: #1b2130;
+  --color-muted: #6b7280;
+  --color-line: #d7dbe3;
+  --color-surface: #fbf8f0; /* gold-whitish */
+  --color-gold: #d4af37;
+  --color-gold-soft: #f6eccf;
+}
+
+html,
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfaf3;
+  background-image:
+    radial-gradient(1200px 600px at 100% -10%, rgba(212, 175, 55, 0.16), transparent 60%),
+    radial-gradient(900px 500px at -10% 100%, rgba(212, 175, 55, 0.12), transparent 60%);
+  background-attachment: fixed;
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Surface helper keeps the gold tint visible behind cards */
+.bg-surface {
+  background-color: rgba(251, 248, 240, 0.85);
+}
+
+.input {
+  @apply w-full rounded-2xl border border-line bg-white px-5 text-[17px] text-ink outline-none transition placeholder:text-gray-400 focus:border-primary focus:ring-4 focus:ring-primary/10;
+  height: 58px;
+}
+
+.label {
+  @apply mb-2 block text-[19px] font-semibold text-ink;
+}
+
+.btn-primary {
+  @apply flex w-full items-center justify-center gap-2 rounded-2xl bg-primary text-[19px] font-bold text-white transition active:scale-[0.99] disabled:cursor-not-allowed disabled:bg-primary/55;
+  height: 62px;
+}
+
+.card {
+  @apply rounded-3xl border bg-white shadow-sm;
+  border-color: #ebe3cf;
+  box-shadow: 0 1px 2px rgba(120, 95, 20, 0.06), 0 8px 24px -16px rgba(120, 95, 20, 0.25);
+}
+
+.stripes {
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(245, 230, 200, 0.45) 0px,
+    rgba(245, 230, 200, 0.45) 8px,
+    rgba(255, 255, 255, 0.9) 8px,
+    rgba(255, 255, 255, 0.9) 16px
+  );
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinner {
+  @apply inline-block h-5 w-5 rounded-full border-2 border-white/40 border-t-white;
+  animation: spin 0.8s linear infinite;
+}
+
+html.dark body,
+html.dark .bg-surface {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+html.dark .card,
+html.dark header,
+html.dark nav > div,
+html.dark .bg-white {
+  background: #111a2e !important;
+  border-color: #1f2a44 !important;
+  color: #e5e7eb;
+}
+html.dark .text-ink {
+  color: #f1f5f9;
+}
+html.dark .input {
+  background: #0f172a;
+  border-color: #1f2a44;
+  color: #f1f5f9;
+}
